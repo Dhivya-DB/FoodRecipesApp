@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BDC68CD27BEE5E600FAF616 /* FoodRecipeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC68BD27BEE5E500FAF616 /* FoodRecipeAppApp.swift */; };
+		7BDC68CE27BEE5E600FAF616 /* FoodRecipeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC68BD27BEE5E500FAF616 /* FoodRecipeAppApp.swift */; };
+		7BDC68CF27BEE5E600FAF616 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC68BE27BEE5E500FAF616 /* ContentView.swift */; };
+		7BDC68D027BEE5E600FAF616 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC68BE27BEE5E500FAF616 /* ContentView.swift */; };
+		7BDC68D127BEE5E600FAF616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BDC68BF27BEE5E600FAF616 /* Assets.xcassets */; };
+		7BDC68D227BEE5E600FAF616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BDC68BF27BEE5E600FAF616 /* Assets.xcassets */; };
+		7BDC68DF27BEE61500FAF616 /* FRLoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC68DE27BEE61500FAF616 /* FRLoginScreen.swift */; };
+		7BDC68E027BEE61500FAF616 /* FRLoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC68DE27BEE61500FAF616 /* FRLoginScreen.swift */; };
+		7BDC68E527BEF86500FAF616 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC68E427BEF86500FAF616 /* extension.swift */; };
+		7BDC68E627BEF86500FAF616 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC68E427BEF86500FAF616 /* extension.swift */; };
+		7BDC68E827BEFA2000FAF616 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BDC68E727BEFA2000FAF616 /* Poppins-Bold.ttf */; };
+		7BDC68EA27BEFA2D00FAF616 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BDC68E927BEFA2D00FAF616 /* Poppins-Black.ttf */; };
+		7BE4ABDB27BFABA000F5A93C /* FRConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE4ABDA27BFAB9F00F5A93C /* FRConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BDC68BD27BEE5E500FAF616 /* FoodRecipeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecipeAppApp.swift; sourceTree = "<group>"; };
+		7BDC68BE27BEE5E500FAF616 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BDC68BF27BEE5E600FAF616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BDC68C427BEE5E600FAF616 /* FoodRecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDC68CA27BEE5E600FAF616 /* FoodRecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDC68CC27BEE5E600FAF616 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7BDC68DE27BEE61500FAF616 /* FRLoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRLoginScreen.swift; sourceTree = "<group>"; };
+		7BDC68E427BEF86500FAF616 /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		7BDC68E727BEFA2000FAF616 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		7BDC68E927BEFA2D00FAF616 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		7BDC68EB27BEFA7500FAF616 /* FoodRecipeApp--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FoodRecipeApp--iOS--Info.plist"; sourceTree = "<group>"; };
+		7BE4ABDA27BFAB9F00F5A93C /* FRConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BDC68C127BEE5E600FAF616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDC68C727BEE5E600FAF616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BDC68B727BEE5E500FAF616 = {
+			isa = PBXGroup;
+			children = (
+				7BDC68EB27BEFA7500FAF616 /* FoodRecipeApp--iOS--Info.plist */,
+				7BDC68BC27BEE5E500FAF616 /* Shared */,
+				7BDC68CB27BEE5E600FAF616 /* macOS */,
+				7BDC68C527BEE5E600FAF616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BDC68BC27BEE5E500FAF616 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7BDC68BD27BEE5E500FAF616 /* FoodRecipeAppApp.swift */,
+				7BDC68BE27BEE5E500FAF616 /* ContentView.swift */,
+				7BDC68BF27BEE5E600FAF616 /* Assets.xcassets */,
+				7BE4ABDA27BFAB9F00F5A93C /* FRConstants.swift */,
+				7BDC68DE27BEE61500FAF616 /* FRLoginScreen.swift */,
+				7BDC68E727BEFA2000FAF616 /* Poppins-Bold.ttf */,
+				7BDC68E927BEFA2D00FAF616 /* Poppins-Black.ttf */,
+				7BDC68E427BEF86500FAF616 /* extension.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7BDC68C527BEE5E600FAF616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BDC68C427BEE5E600FAF616 /* FoodRecipeApp.app */,
+				7BDC68CA27BEE5E600FAF616 /* FoodRecipeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BDC68CB27BEE5E600FAF616 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BDC68CC27BEE5E600FAF616 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BDC68C327BEE5E600FAF616 /* FoodRecipeApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDC68D527BEE5E600FAF616 /* Build configuration list for PBXNativeTarget "FoodRecipeApp (iOS)" */;
+			buildPhases = (
+				7BDC68C027BEE5E600FAF616 /* Sources */,
+				7BDC68C127BEE5E600FAF616 /* Frameworks */,
+				7BDC68C227BEE5E600FAF616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FoodRecipeApp (iOS)";
+			productName = "FoodRecipeApp (iOS)";
+			productReference = 7BDC68C427BEE5E600FAF616 /* FoodRecipeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BDC68C927BEE5E600FAF616 /* FoodRecipeApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDC68D827BEE5E600FAF616 /* Build configuration list for PBXNativeTarget "FoodRecipeApp (macOS)" */;
+			buildPhases = (
+				7BDC68C627BEE5E600FAF616 /* Sources */,
+				7BDC68C727BEE5E600FAF616 /* Frameworks */,
+				7BDC68C827BEE5E600FAF616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FoodRecipeApp (macOS)";
+			productName = "FoodRecipeApp (macOS)";
+			productReference = 7BDC68CA27BEE5E600FAF616 /* FoodRecipeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BDC68B827BEE5E500FAF616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = FR;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7BDC68C327BEE5E600FAF616 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					7BDC68C927BEE5E600FAF616 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 7BDC68BB27BEE5E500FAF616 /* Build configuration list for PBXProject "FoodRecipeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BDC68B727BEE5E500FAF616;
+			productRefGroup = 7BDC68C527BEE5E600FAF616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BDC68C327BEE5E600FAF616 /* FoodRecipeApp (iOS) */,
+				7BDC68C927BEE5E600FAF616 /* FoodRecipeApp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BDC68C227BEE5E600FAF616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDC68EA27BEFA2D00FAF616 /* Poppins-Black.ttf in Resources */,
+				7BDC68D127BEE5E600FAF616 /* Assets.xcassets in Resources */,
+				7BDC68E827BEFA2000FAF616 /* Poppins-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDC68C827BEE5E600FAF616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDC68D227BEE5E600FAF616 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BDC68C027BEE5E600FAF616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE4ABDB27BFABA000F5A93C /* FRConstants.swift in Sources */,
+				7BDC68CF27BEE5E600FAF616 /* ContentView.swift in Sources */,
+				7BDC68DF27BEE61500FAF616 /* FRLoginScreen.swift in Sources */,
+				7BDC68CD27BEE5E600FAF616 /* FoodRecipeAppApp.swift in Sources */,
+				7BDC68E527BEF86500FAF616 /* extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDC68C627BEE5E600FAF616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDC68D027BEE5E600FAF616 /* ContentView.swift in Sources */,
+				7BDC68E027BEE61500FAF616 /* FRLoginScreen.swift in Sources */,
+				7BDC68CE27BEE5E600FAF616 /* FoodRecipeAppApp.swift in Sources */,
+				7BDC68E627BEF86500FAF616 /* extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BDC68D327BEE5E600FAF616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BDC68D427BEE5E600FAF616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7BDC68D627BEE5E600FAF616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XMSSQM88T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FoodRecipeApp--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mallow-tech.FoodRecipeApp";
+				PRODUCT_NAME = FoodRecipeApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BDC68D727BEE5E600FAF616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XMSSQM88T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FoodRecipeApp--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mallow-tech.FoodRecipeApp";
+				PRODUCT_NAME = FoodRecipeApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BDC68D927BEE5E600FAF616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XMSSQM88T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mallow-tech.FoodRecipeApp";
+				PRODUCT_NAME = FoodRecipeApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7BDC68DA27BEE5E600FAF616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XMSSQM88T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mallow-tech.FoodRecipeApp";
+				PRODUCT_NAME = FoodRecipeApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BDC68BB27BEE5E500FAF616 /* Build configuration list for PBXProject "FoodRecipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDC68D327BEE5E600FAF616 /* Debug */,
+				7BDC68D427BEE5E600FAF616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDC68D527BEE5E600FAF616 /* Build configuration list for PBXNativeTarget "FoodRecipeApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDC68D627BEE5E600FAF616 /* Debug */,
+				7BDC68D727BEE5E600FAF616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDC68D827BEE5E600FAF616 /* Build configuration list for PBXNativeTarget "FoodRecipeApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDC68D927BEE5E600FAF616 /* Debug */,
+				7BDC68DA27BEE5E600FAF616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BDC68B827BEE5E500FAF616 /* Project object */;
+}
